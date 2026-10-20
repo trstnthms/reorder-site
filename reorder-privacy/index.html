@@ -12,7 +12,7 @@
   <meta property="og:url" content="https://trstnthms.github.io/reorder-site/reorder-privacy/">
   <meta property="og:image" content="https://trstnthms.github.io/reorder-site/assets/icon.png?v=f9e014a9330b">
   <link rel="icon" type="image/png" href="/reorder-site/assets/icon.png?v=f9e014a9330b">
-  <link rel="stylesheet" href="/reorder-site/styles.css?v=8176ba9f4329">
+  <link rel="stylesheet" href="/reorder-site/styles.css?v=39ef4c4e6139">
 </head>
 <body class="document" style="--sky: #f1dfd1; --ground: #f6edda">
   <a class="skip" href="#main">Skip to content</a>
@@ -20,7 +20,7 @@
 <header class="document-header"><a class="brand" href="/reorder-site/"><img src="/reorder-site/assets/icon.png?v=f9e014a9330b" width="36" height="36" alt="">Reorder</a></header>
 <main id="main" class="document-main"><h1>Privacy Policy</h1>
 <p class="lead">
-  Last updated: 14 June 2026
+  Last updated: 20 October 2026
 </p>
 
 <p>
@@ -39,12 +39,12 @@
 
 <h2>Voice recording and transcription</h2>
 <p>
-  If you choose to record a review, Reorder uses microphone access to capture the recording and speech recognition to transcribe it. Voice features are used only when you start a recording.
+  If you choose to record a review, Reorder uses microphone access to capture the recording and sends the audio through its Cloudflare backend to OpenAI for transcription. Successfully processed audio is removed from the app; recordings awaiting processing or a retry may remain on your device. Voice features are used only when you start a recording.
 </p>
 
-<h2>Apple Intelligence</h2>
+<h2>Online AI</h2>
 <p>
-  When Apple Intelligence is available, Reorder can use it to help structure review text, extract dish notes, generate restaurant summaries, and answer questions from your saved reviews.
+  Reorder uses OpenAI through its Cloudflare backend to structure review text, extract dish notes, generate restaurant summaries, and answer questions from your saved reviews. These features send the relevant review text and restaurant context for processing. Advisor questions may also include relevant saved review history and profile names.
 </p>
 
 <h2>How your data is used</h2>
@@ -73,7 +73,7 @@
 
 <h2>Data sharing</h2>
 <p>
-  Reorder does not sell your personal data. Data may be processed by Apple platform services, such as iCloud, Speech Recognition, MapKit, and Apple Intelligence, only as needed to provide the app features you choose to use.
+  Reorder does not sell your personal data. Data may be processed by Apple platform services, such as iCloud and MapKit, and by Cloudflare and OpenAI to provide the online transcription and AI features you choose to use. The backend uses Apple App Attest and a pseudonymous installation identifier to authenticate requests and enforce rate limits. Request logs include route, status, duration, installation identifier, and upstream request identifier rather than review text or recordings.
 </p>
 
 <h2>Deleting your data</h2>
